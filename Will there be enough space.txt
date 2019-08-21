@@ -1,0 +1,10 @@
+def enough(cap, on, wait):
+    sum = wait+on
+    free = cap-on
+    x = wait-free
+    if free >= wait:
+       
+        return 0
+    else:
+        
+        return x
